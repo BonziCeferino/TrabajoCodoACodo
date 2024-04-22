@@ -1,0 +1,25 @@
+.contenedor{
+    border: 2px red solid;   
+}
+.resaltar{
+    border: 4px blue solid; 
+    padding: 8vh;     
+}
+.tituloPrincipal{
+    border: 4px green solid;
+padding: 8vh 0; 
+}
+.tituloSecundario{
+    border: 4px purple solid;
+    padding: 8vh 0;
+}
+.boton{
+    border: 4px orange solid;
+ padding: 5vh;
+}
+
+/* Estilos para la pagina Home */
+
+.contenedor1{
+    border: 2px red solid;
+}
