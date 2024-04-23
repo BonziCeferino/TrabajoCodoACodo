@@ -18,6 +18,10 @@ body{
 .contenedor{ 
 max-width: 550px;
 }
+.dancing{
+  font-family: Dancing Script;
+  font-weight: 700;
+}
 
 .division{
     margin-top: 1em;
