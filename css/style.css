@@ -1,25 +1,27 @@
-.contenedor{
-    border: 2px red solid;   
+
+body{
+    /* Crea un fondo con un patron desde css. descargado desde css*/
+        --s: 30em; /* control the size */
+        /* --c1: #007bff;
+        --c2: #6f42c1;
+        --c3: #6610f2; */
+        --c1: #ffe226e2;
+        --c2: #ffb52ddf;
+        --c3: #ff8827d8;
+        
+        background:
+          repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 180deg) 
+           calc(.5*var(--s)) calc(.5*var(--s)*0.577),
+          repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 180deg);
+        background-size: var(--s) calc(var(--s)*0.577);     
 }
-.resaltar{
-    border: 4px blue solid; 
-    padding: 8vh;     
-}
-.tituloPrincipal{
-    border: 4px green solid;
-padding: 8vh 0; 
-}
-.tituloSecundario{
-    border: 4px purple solid;
-    padding: 8vh 0;
-}
-.boton{
-    border: 4px orange solid;
- padding: 5vh;
+.contenedor{ 
+max-width: 550px;
 }
 
-/* Estilos para la pagina Home */
-
-.contenedor1{
-    border: 2px red solid;
+.division{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-width: 0.35em;
+    color: #ffc107;
 }
